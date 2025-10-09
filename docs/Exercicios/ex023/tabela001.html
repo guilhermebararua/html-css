@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        
+        tr.linha {
+            background-color: grey;
+        }
+
+        tr.linha2 {
+            background-color: blue;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        td.dado {
+            background-color: yellow;
+        }
+
+        td.fla {
+            background-color: rgb(175, 7, 7);
+        }
+
+        td.mengo {
+            background-color: black;
+            color: aliceblue;
+        }
+
+        td.top {
+            background-color: green;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+       <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+
+       </tr>
+       <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+       </tr> 
+       <tr>
+            <td class="fla">A3</td>
+            <td class="mengo">B3</td>
+            <td class="top">C3</td>
+       </tr>
+       <tr>
+            <td class="fla">A4</td>
+            <td class="dado">B4</td>
+            <td>C4</td>
+       </tr> 
+       <tr>
+            <td class="fla">A5</td>
+       </tr>
+       <tr class="linha2">
+            <td>A6</td>
+            <td>B6</td>
+       </tr>
+    </table> 
+</body>
+</html>
