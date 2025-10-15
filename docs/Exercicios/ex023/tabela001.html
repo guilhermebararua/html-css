@@ -5,60 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: bisque;
-        }
         
-        p {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 2em;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
-        }
-        
-        tr.linha {
-            background-color: grey;
-        }
-
-        tr.linha2 {
-            background-color: blue;
         }
 
         td {
             border: 1px solid black;
             padding: 6px;
+            text-align: center;
+            vertical-align: middle;
         }
 
-        td.dado {
-            background-color: yellow;
+        .numero {
+            text-align: right;
         }
 
-        td.fla {
-            background-color: rgb(175, 7, 7);
-        }
-
-        td.mengo {
-            background-color: black;
-            color: aliceblue;
-        }
-
-        td.top {
-            background-color: green;
-            color: darkgray;
-        }
+    
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque officia soluta sit, similique rem molestias facere reiciendis officiis excepturi magnam ab suscipit, dicta voluptate esse. Aliquid enim temporibus neque.</p>
     <table>
        <tr>
             <td>A1</td>
@@ -66,27 +35,22 @@
             <td>C1</td>
 
        </tr>
-       <tr class="linha">
+       <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
        </tr> 
        <tr>
-            <td class="fla">A3</td>
-            <td class="mengo">B3</td>
-            <td class="top">C3</td>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
        </tr>
        <tr>
-            <td class="fla">A4</td>
-            <td class="dado">B4</td>
+            <td>A4</td>
+            <td>B4</td>
             <td>C4</td>
        </tr> 
-       <tr>
-            <td class="fla">A5</td>
-       </tr>
-       <tr class="linha2">
-            <td>A6</td>
-            <td>B6</td>
+    
        </tr>
     </table> 
 </body>
